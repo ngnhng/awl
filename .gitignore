@@ -70,4 +70,18 @@ fabric.properties
 /node_modules/
 /vendor/
 /static/
+# Keep placeholder for embedded static files
+!static/placeholder.js
 /build/
+
+# Application specific
+awl
+awl-tray
+awl.exe
+awl-tray.exe
+config_awl.json
+config_awl.json.bak.*
+
+# Tutorial artifacts  
+tutorial/*/go.sum
+tutorial/*/awl-tutorial
